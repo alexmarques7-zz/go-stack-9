@@ -3,22 +3,22 @@
 VSCode Configuration
 
 ## VSCODE
-### Required plugins, fonts, icons and theme.
+### Required plugins, fonts, icons and theme.  
 
-**Theme** 
+**Theme**  
 Search for Dracula Theme inside extensions.
 
-**Icons** 
+**Icons**  
 Search for Material Icon Themes inside extensions.
 
-**Fonts**
+**Fonts**  
 https://github.com/tonsky/FiraCode
 
-**Plugin** 
+**Plugin**  
 Search for Rocketseat ReactJS inside extensions.
 Search for Rocketseat React Native inside extensions.
 
-### Required Settings
+### Required Settings  
 
 ```
 {
@@ -51,14 +51,15 @@ Search for Rocketseat React Native inside extensions.
 }
 ```
 
-## OhMyZSH Terminal
-Install https://ohmyz.sh/
+## OhMyZSH Terminal  
+Install  
+https://ohmyz.sh/
 
 ### Required plugins, fonts, icons and theme.
-**Info Style**
+**Info Style**  
 https://github.com/denysdovhan/spaceship-prompt
 
-**Plugin Manager**
+**Plugin Manager**  
 https://github.com/zdharma/zinit
 
 ### Required Settings
@@ -201,5 +202,14 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 ## Google Chrome Themes
 
-**Adds React debugging tools to the Chrome Developer Tools**
+**Adds React debugging tools to the Chrome Developer Tools**  
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl
+
+
+## Tools
+
+**Insomnia**  
+https://www.insomnia.rest
+
+**DevDocs**  
+https://github.com/egoist/devdocs-desktop
