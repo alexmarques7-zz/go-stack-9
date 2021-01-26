@@ -133,6 +133,7 @@ dist
 !.vscode/extensions.json
 *.code-workspace
 
-### Public ###
+### Project ###
 public
+yarn.lock
 
