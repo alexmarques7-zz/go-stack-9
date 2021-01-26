@@ -10,6 +10,9 @@ class TechList extends Component {
   };
 
   render() {
+
+    console.log(this.state);
+    
     return (
       <ul>
         <li>Node.js</li>
