@@ -1,0 +1,51 @@
+/* ----- 
+
+Classes Prefixes
+
+d-design-tokens
+e-elements
+c-combinations
+m-modules
+p-pages
+j-javascript
+
+----- */
+
+@import "./scss/css-reset";
+@import "./scss/variables";
+
+@import "./scss/e-form";
+@import "./scss/e-input-text";
+@import "./scss/e-input-submit";
+
+body {
+  background-color: $black;
+}
+
+.p-tech-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $black;
+}
+
+.e-title-primary {
+  height: 32px;
+  color: $white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: $m1;
+}
+
+.e-block-list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+
+  &__item {
+    padding: $p3;
+    margin: 0 $m1;
+    background-color: $yellow;
+  }
+}

@@ -1,0 +1,13 @@
+.e-form {
+  width: 100%;
+  padding: $p4;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: $r1;
+
+  &.--t-gray {
+    background-color: $gray-dark;
+    color: $gray;
+  }
+}
