@@ -134,4 +134,4 @@ dist
 *.code-workspace
 
 ### Public ###
-public/*
+.public/*
