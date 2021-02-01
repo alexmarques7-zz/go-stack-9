@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TechItem from './TechItem';
 class TechList extends Component {
 
   state = {
@@ -25,6 +26,8 @@ class TechList extends Component {
 
   handleDelete = (tech) => {
     this.setState({ techs: this.state.techs.filter( t => t != tech ) })
+
+    console.log(this.state.techs);
   }
 
   render() {
@@ -34,15 +37,12 @@ class TechList extends Component {
         <h1 className="e-title-primary">{this.state.newTech}</h1>
 
         <ul className="e-block-list">
-          {this.state.techs.map( tech => (
-            <li className="e-block-list__item" key={tech}>
-              {tech}
-              <button 
-                onClick={() => this.handleDelete(tech)} 
-                type="button">Remover
-              </button>
-            </li>
-          ))}
+          {this.state.techs.map( tech => 
+            <TechItem 
+              key={tech} 
+              tech="tech" 
+              onDelete={() => this.handleDelete(tech)} />
+            )}
         </ul>
 
         <form 

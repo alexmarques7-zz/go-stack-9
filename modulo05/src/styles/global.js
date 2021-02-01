@@ -2,21 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
-  body {
-    background-color: #7159c1;
-    -webkit-font-smoothing: antialised !important;
-  }
-
-  body, input, button {
-    color: #222;
-    font-size: 14px;
-    font-family: 'Arial', Helvetica, sans-serif;
-  }
-
-  html, body, #root {
-    min-height: 100%;
-  }
-
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -59,5 +44,20 @@ export default createGlobalStyle`
   table {
     border-collapse: collapse;
     border-spacing: 0;
+  }
+
+  body {
+    background-color: #7159c1;
+    -webkit-font-smoothing: antialised !important;
+  }
+
+  body, input, button {
+    color: #222;
+    font-size: 14px;
+    font-family: 'Arial', Helvetica, sans-serif;
+  }
+
+  html, body, #root {
+    min-height: 100%;
   }
 `;
